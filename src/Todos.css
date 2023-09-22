@@ -1,0 +1,99 @@
+Todos.css
+
+  
+
+.hello {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 20px auto;
+    width: 300px;
+    padding: 20px; /* Add padding for spacing */
+  }
+  
+  h1 {
+    font-size: 50px;
+    color: white;
+    font: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    font-size: 20px;
+    background-color: #65451F;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  ol {
+  padding-left: 0;
+}
+
+li {
+  list-style: decimal;
+  margin-bottom: 10px;
+  font-style: italic;
+    font-size: 25px; /* Adjust the font size as needed */
+    font-weight: bold; /* Make the font bold */
+  color: white;
+}
+  
+  .edit-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .edit-input {
+    width: 100%;
+    padding: 4px;
+  }
+  
+  .delete-button {
+    background-color: #dc3545;
+  }
+  
+  .delete-button:hover {
+    background-color: #c82333;
+  }
+  
+  .update-button {
+    background-color: #28a745;
+  }
+  
+  .update-button:hover {
+    background-color: #218838;
+  }
+  
+  .helloman{
+    margin-right: 50px;
+    margin: 25px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+}
+  .helloman button{
+    width: 100px;
+    margin-left: 30px;
+    
+   
+
+  }
+
+
+  
