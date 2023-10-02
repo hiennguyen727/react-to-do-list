@@ -51,7 +51,7 @@ const Todos = () => {
     
     <div className="hello">
          
-      <h1>THINGS TO DO</h1>
+      <h1>Finish Up</h1>
       <input value={value} onChange={handleInputChange} />
       <button onClick={handleClick}>Add to list</button>
       <div>
