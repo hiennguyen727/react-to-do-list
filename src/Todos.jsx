@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import './Todos.css';
 import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
+
 
 const Todos = () => {
   const [value, setValue] = useState('');
@@ -51,16 +50,7 @@ const Todos = () => {
     
     
     <div className="hello">
-         <Navbar bg="dark" data-bs-theme="dark">
-        <Container>
-          <Navbar.Brand href="#home">TODOLIST</Navbar.Brand>
-          <Nav className="me-auto">
-            <Nav.Link href="#home">THINGS</Nav.Link>
-            <Nav.Link href="#features">TO</Nav.Link>
-            <Nav.Link href="#pricing">DO</Nav.Link>
-          </Nav>
-        </Container>
-      </Navbar>
+         
       <h1>THINGS TO DO</h1>
       <input value={value} onChange={handleInputChange} />
       <button onClick={handleClick}>Add to list</button>
